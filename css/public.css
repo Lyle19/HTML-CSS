@@ -132,11 +132,12 @@
 .ffa{font-family:Arial;}
 .fft{font-family:Tahoma;}
 .ffv{font-family:Verdana;}
-.ffst{font-family:Simsun;}
-.ffl{font-family:Lucida Console;}
-.ffyh{font-family:Microsoft Yahei;}
-.ffht{font-family:SimHei;}
-.ffkt{font-family:KaiTi;}
+.ffst{font-family:SimSun;}				/*宋体*/
+.ffyh{font-family:Microsoft YaHei;}		/*微软雅黑*/
+.ffht{font-family:SimHei;}				/*黑体*/
+.ffkt{font-family:KaiTi;}				/*楷体*/
+.fffs{font-family:FangSong;}			/*仿宋*/
+.ffxst{font-family:NSimSun;
 /* text-align 水平对齐 */
 .tac{text-align:center;}
 .tar{text-align:right;}
