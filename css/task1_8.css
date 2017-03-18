@@ -42,14 +42,14 @@
 	width:-webkit-calc(50% - 20px);
 	width:calc(50% - 20px);
 }
-@media all and (max-width: 310px){
+@media all and (max-width: 360px){
 	.col-1, .col-2, .col-3, .col-4, .col-6{
 		width:-moz-calc(100% - 20px);
 		width:-webkit-calc(100% - 20px);
 		width:calc(100% - 20px);
 	}
 }
-@media all and (min-width: 311px) and (max-width:768px){
+@media all and (min-width: 361px) and (max-width:768px){
 	.col-4{
 		width:-moz-calc(50% - 20px);
 		width:-webkit-calc(50% - 20px);
