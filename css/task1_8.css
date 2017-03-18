@@ -2,12 +2,11 @@
 /*task1_8 CSS 样式*/
 .main{
 	padding:10px;
-	overflow: hidden;
+	overflow: auto;
 }
 [class*='col-'] {
         float: left; 
         min-height: 1px; 
-        width: 16.66%; 
         /*-- our gutter -- */
         padding: 12px; 
         height:50px;
@@ -43,8 +42,14 @@
 	width:-webkit-calc(50% - 20px);
 	width:calc(50% - 20px);
 }
-
-@media all and (max-width:768px){
+@media all and (max-width: 310px){
+	.col-1, .col-2, .col-3, .col-4, .col-6{
+		width:-moz-calc(100% - 20px);
+		width:-webkit-calc(100% - 20px);
+		width:calc(100% - 20px);
+	}
+}
+@media all and (min-width: 311px) and (max-width:768px){
 	.col-4{
 		width:-moz-calc(50% - 20px);
 		width:-webkit-calc(50% - 20px);
@@ -70,4 +75,5 @@
 		width:-webkit-calc(66.66% - 20px);
 		width:calc(66.66% - 20px);
 	}
+	
 }
