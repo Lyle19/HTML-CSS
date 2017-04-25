@@ -24,7 +24,7 @@ a {
 	text-decoration: none;
 }
 
-.claerfloat{
+/*.claerfloat{
 	zoom:1;
 }
 .clearfloat:after{
@@ -33,7 +33,7 @@ a {
 	content:"";
 	visibility: hidden;
 	height:0;
-}
+}*/
 
 /*CSS3新加入神奇*/
 /*传统盒子模型的二维 = 自己设置的高度/宽度 + padding + border + margin*/

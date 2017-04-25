@@ -137,7 +137,7 @@
 .ffht{font-family:SimHei;}				/*黑体*/
 .ffkt{font-family:KaiTi;}				/*楷体*/
 .fffs{font-family:FangSong;}			/*仿宋*/
-.ffxst{font-family:NSimSun;
+.ffxst{font-family:NSimSun;}
 /* text-align 水平对齐 */
 .tac{text-align:center;}
 .tar{text-align:right;}
@@ -171,12 +171,10 @@
 /* 块状元素水平居中 */
 .auto{margin-left:auto; margin-right:auto;}
 /* 清除浮动*/
-.fix{*zoom:1;}
-.fix:after{display:table; content:''; clear:both;}
 /* 基于display:table-cell的自适应布局 */
-.cell{display:table-cell; *display:inline-block; width:2000px; *width:auto;}
+/*.cell{display:table-cell; *display:inline-block; width:2000px; *width:auto;}*/
 /* 双栏自适应cell部分连续英文字符换行 */
-.cell2{overflow:hidden; _display:inline-block;}
+/*.cell2{overflow:hidden; _display:inline-block;}*/
 /* 单行文字溢出虚点显 示*/
 .ell{text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
 /* css3过渡动画效果 */
